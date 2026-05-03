@@ -27,12 +27,6 @@ jobs:
           GH_USER: Darkaiser2
         run: python scripts/collect.py
 
-      - name: Send Telegram digest
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/digest.py
-
       - name: Commit data updates
         run: |
           git config user.name  "gh-traffic-logger[bot]"
