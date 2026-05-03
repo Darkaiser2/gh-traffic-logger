@@ -24,7 +24,7 @@ jobs:
       - name: Collect traffic
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-          GH_USER: ${{ vars.GH_USER || 'Darkaiser2' }}
+          GH_USER: Darkaiser2
         run: python scripts/collect.py
 
       - name: Send Telegram digest
