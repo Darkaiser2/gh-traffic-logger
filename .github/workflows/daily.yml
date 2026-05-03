@@ -1,0 +1,46 @@
+name: daily-traffic
+
+on:
+  schedule:
+    - cron: "0 12 * * *"   # 08:00 EDT / 07:00 EST daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Collect traffic
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_USER: ${{ vars.GH_USER || 'Darkaiser2' }}
+        run: python scripts/collect.py
+
+      - name: Send Telegram digest
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/digest.py
+
+      - name: Commit data updates
+        run: |
+          git config user.name  "gh-traffic-logger[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: traffic snapshot $(date -u +%F)"
+            git push
+          fi
