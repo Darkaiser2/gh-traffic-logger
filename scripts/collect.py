@@ -38,17 +38,18 @@ def get(path: str, params: dict | None = None) -> dict | list:
 
 
 def list_repos() -> list[dict]:
+    """Authenticated endpoint returns public + private repos owned by the token user."""
     repos: list[dict] = []
     page = 1
     while True:
-        batch = get(f"/users/{quote(USER)}/repos", {"per_page": 100, "page": page, "type": "owner"})
+        batch = get("/user/repos", {"per_page": 100, "page": page, "affiliation": "owner"})
         if not batch:
             break
         repos.extend(batch)
         if len(batch) < 100:
             break
         page += 1
-    return [r for r in repos if not r.get("fork")]
+    return [r for r in repos if not r.get("fork") and r.get("owner", {}).get("login") == USER]
 
 
 def upsert_csv(path: Path, header: list[str], rows: list[list], key_idx: tuple[int, ...]):
