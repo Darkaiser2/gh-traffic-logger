@@ -766,6 +766,7 @@ date,repo,views,uniques
 2026-07-09,Darkaiser2/local-agent,0,0
 2026-07-09,Darkaiser2/niche-hunt,0,0
 2026-07-09,Darkaiser2/portfolio,0,0
+2026-07-09,Darkaiser2/portfolio-chat-server,0,0
 2026-07-09,Darkaiser2/software-vetting-frame,0,0
 2026-07-09,Darkaiser2/tradingagents-scout,0,0
 2026-07-10,Darkaiser2/MatusitaSevenDays,0,0
@@ -778,6 +779,7 @@ date,repo,views,uniques
 2026-07-10,Darkaiser2/local-agent,0,0
 2026-07-10,Darkaiser2/niche-hunt,0,0
 2026-07-10,Darkaiser2/portfolio,0,0
+2026-07-10,Darkaiser2/portfolio-chat-server,0,0
 2026-07-10,Darkaiser2/software-vetting-frame,0,0
 2026-07-10,Darkaiser2/tradingagents-scout,0,0
 2026-07-11,Darkaiser2/MatusitaSevenDays,0,0
@@ -790,6 +792,7 @@ date,repo,views,uniques
 2026-07-11,Darkaiser2/local-agent,0,0
 2026-07-11,Darkaiser2/niche-hunt,0,0
 2026-07-11,Darkaiser2/portfolio,0,0
+2026-07-11,Darkaiser2/portfolio-chat-server,0,0
 2026-07-11,Darkaiser2/software-vetting-frame,0,0
 2026-07-11,Darkaiser2/tradingagents-scout,0,0
 2026-07-12,Darkaiser2/MatusitaSevenDays,0,0
@@ -802,6 +805,7 @@ date,repo,views,uniques
 2026-07-12,Darkaiser2/local-agent,0,0
 2026-07-12,Darkaiser2/niche-hunt,0,0
 2026-07-12,Darkaiser2/portfolio,0,0
+2026-07-12,Darkaiser2/portfolio-chat-server,0,0
 2026-07-12,Darkaiser2/software-vetting-frame,0,0
 2026-07-12,Darkaiser2/tradingagents-scout,0,0
 2026-07-13,Darkaiser2/MatusitaSevenDays,0,0
@@ -814,6 +818,7 @@ date,repo,views,uniques
 2026-07-13,Darkaiser2/local-agent,0,0
 2026-07-13,Darkaiser2/niche-hunt,0,0
 2026-07-13,Darkaiser2/portfolio,0,0
+2026-07-13,Darkaiser2/portfolio-chat-server,0,0
 2026-07-13,Darkaiser2/software-vetting-frame,0,0
 2026-07-13,Darkaiser2/tradingagents-scout,0,0
 2026-07-14,Darkaiser2/MatusitaSevenDays,0,0
@@ -826,6 +831,7 @@ date,repo,views,uniques
 2026-07-14,Darkaiser2/local-agent,0,0
 2026-07-14,Darkaiser2/niche-hunt,0,0
 2026-07-14,Darkaiser2/portfolio,0,0
+2026-07-14,Darkaiser2/portfolio-chat-server,0,0
 2026-07-14,Darkaiser2/software-vetting-frame,0,0
 2026-07-14,Darkaiser2/tradingagents-scout,0,0
 2026-07-15,Darkaiser2/MatusitaSevenDays,0,0
@@ -838,6 +844,7 @@ date,repo,views,uniques
 2026-07-15,Darkaiser2/local-agent,0,0
 2026-07-15,Darkaiser2/niche-hunt,0,0
 2026-07-15,Darkaiser2/portfolio,0,0
+2026-07-15,Darkaiser2/portfolio-chat-server,0,0
 2026-07-15,Darkaiser2/software-vetting-frame,0,0
 2026-07-15,Darkaiser2/tradingagents-scout,0,0
 2026-07-16,Darkaiser2/MatusitaSevenDays,0,0
@@ -850,6 +857,7 @@ date,repo,views,uniques
 2026-07-16,Darkaiser2/local-agent,0,0
 2026-07-16,Darkaiser2/niche-hunt,0,0
 2026-07-16,Darkaiser2/portfolio,0,0
+2026-07-16,Darkaiser2/portfolio-chat-server,0,0
 2026-07-16,Darkaiser2/software-vetting-frame,0,0
 2026-07-16,Darkaiser2/tradingagents-scout,0,0
 2026-07-17,Darkaiser2/MatusitaSevenDays,0,0
@@ -862,12 +870,26 @@ date,repo,views,uniques
 2026-07-17,Darkaiser2/local-agent,0,0
 2026-07-17,Darkaiser2/niche-hunt,0,0
 2026-07-17,Darkaiser2/portfolio,0,0
+2026-07-17,Darkaiser2/portfolio-chat-server,0,0
 2026-07-17,Darkaiser2/software-vetting-frame,0,0
 2026-07-17,Darkaiser2/tradingagents-scout,0,0
 2026-07-18,Darkaiser2/MatusitaSevenDays,0,0
 2026-07-18,Darkaiser2/app1-control-change-assistant,0,0
+2026-07-18,Darkaiser2/app2-algotrader,0,0
 2026-07-18,Darkaiser2/ccna-sim,0,0
 2026-07-18,Darkaiser2/claude-memory,0,0
+2026-07-18,Darkaiser2/cyberpunk-toystore,0,0
+2026-07-18,Darkaiser2/gh-traffic-logger,0,0
 2026-07-18,Darkaiser2/local-agent,0,0
 2026-07-18,Darkaiser2/niche-hunt,0,0
+2026-07-18,Darkaiser2/portfolio,0,0
+2026-07-18,Darkaiser2/portfolio-chat-server,0,0
+2026-07-18,Darkaiser2/software-vetting-frame,0,0
 2026-07-18,Darkaiser2/tradingagents-scout,0,0
+2026-07-19,Darkaiser2/MatusitaSevenDays,0,0
+2026-07-19,Darkaiser2/app1-control-change-assistant,0,0
+2026-07-19,Darkaiser2/ccna-sim,0,0
+2026-07-19,Darkaiser2/claude-memory,0,0
+2026-07-19,Darkaiser2/local-agent,0,0
+2026-07-19,Darkaiser2/niche-hunt,0,0
+2026-07-19,Darkaiser2/tradingagents-scout,0,0
